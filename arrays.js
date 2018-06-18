@@ -3,5 +3,5 @@ function addElementToBeginningOfArray(array, element) {
   return [element, ...array]
 }
 function destructiveAddElementToBeginningOfArray(array, element) {
-  return [element, ...array]
+  array.unshift(element)
 }
